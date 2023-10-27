@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+}
+
+.mascotas {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mascota {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.mascota img {
+    width: 300px; /* Cambia este valor al tamaño deseado */
+    height: 200px}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.contacto {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
